@@ -1,0 +1,20 @@
+node_modules
+dist
+.DS_Store
+*.local
+.env
+.env.*
+coverage
+*.zip
+/release/
+stats.html
+2026-06-28-*.txt
+*chat-history.md
+
+# Local development context and archived planning notes
+/.claude/
+/.mcp.json
+/.gitlab-ci.yml
+/docs/plans/
+/docs/superpowers/
+/docs/research/

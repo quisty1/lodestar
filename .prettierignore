@@ -1,0 +1,9 @@
+node_modules
+dist
+coverage
+release
+output
+package-lock.json
+src/lib/connect/countries.json
+*.zip
+stats.html

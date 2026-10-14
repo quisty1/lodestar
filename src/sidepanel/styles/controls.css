@@ -1,0 +1,257 @@
+button {
+  color: var(--txt);
+}
+.btn,
+.ghost {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  min-height: 40px;
+  padding: 8px 12px;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  background: transparent;
+  font-weight: 500;
+  line-height: 1.4;
+  text-decoration: none;
+}
+.btn:not(:disabled):hover,
+.ghost:not(:disabled):hover {
+  background: var(--panel2);
+}
+.btn.primary {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: var(--ink);
+}
+.btn.primary:not(:disabled):hover {
+  background: #a4bbed;
+}
+.btn.stop {
+  border-color: var(--danger);
+  color: var(--danger);
+}
+.ghost {
+  border-color: transparent;
+  color: var(--accent);
+}
+.icon-button {
+  display: grid;
+  place-items: center;
+  width: 40px;
+  height: 40px;
+  padding: 8px;
+  border: 0;
+  border-radius: 6px;
+  background: transparent;
+}
+.icon-button:hover {
+  background: var(--panel2);
+}
+.text-button {
+  padding: 4px 0;
+  border: 0;
+  background: transparent;
+  color: var(--accent);
+  text-align: left;
+}
+.fld {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin: 16px 0;
+  min-width: 0;
+}
+.fld .k {
+  font-size: 12px;
+  color: var(--mut);
+}
+input:not([type='checkbox']),
+select,
+textarea {
+  display: block;
+  width: 100%;
+  min-width: 0;
+  min-height: 40px;
+  background: var(--ink);
+  color: var(--txt);
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  padding: 8px 12px;
+}
+textarea {
+  resize: vertical;
+  line-height: 1.6;
+}
+input::placeholder,
+textarea::placeholder {
+  color: var(--mut);
+}
+input[type='checkbox'] {
+  accent-color: var(--accent);
+  width: 16px;
+  height: 16px;
+  flex-shrink: 0;
+  vertical-align: middle;
+  margin: 0 8px 0 0;
+}
+.check-label {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  padding: 8px 0;
+}
+.check-label input {
+  margin: 0;
+}
+.v {
+  display: inline-block;
+  font-size: 12px;
+  margin: 4px 0;
+}
+.sw {
+  position: relative;
+  width: 36px;
+  height: 22px;
+  border-radius: 12px;
+  border: 1px solid var(--line);
+  background: var(--panel2);
+  padding: 0;
+  flex-shrink: 0;
+}
+.sw::after {
+  content: '';
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  top: 3px;
+  left: 3px;
+  background: var(--mut);
+  border-radius: 50%;
+}
+.sw.on {
+  background: var(--accent);
+  border-color: var(--accent);
+}
+.sw.on::after {
+  left: 17px;
+  background: var(--ink);
+}
+.tabs {
+  display: flex;
+  gap: 4px;
+  border-bottom: 1px solid var(--line);
+  margin-bottom: 16px;
+  overflow-x: auto;
+  scrollbar-width: thin;
+}
+.tabs button {
+  flex: 1 0 auto;
+  min-width: 64px;
+  min-height: 44px;
+  padding: 8px 12px;
+  border: 0;
+  border-bottom: 2px solid transparent;
+  background: transparent;
+  font-size: 12px;
+  color: var(--mut);
+  white-space: nowrap;
+}
+.tabs button[aria-selected='true'] {
+  color: var(--txt);
+  border-bottom-color: var(--accent);
+}
+.tabs button:hover {
+  background: var(--panel);
+}
+.chips,
+.weekdays {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 12px;
+  padding: 4px 8px;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  background: var(--panel);
+  color: var(--txt);
+  max-width: 100%;
+  overflow-wrap: anywhere;
+}
+.combo {
+  position: relative;
+  min-width: 0;
+}
+.combo-field {
+  position: relative;
+}
+.combo-list {
+  position: absolute;
+  z-index: 40;
+  top: 100%;
+  left: 0;
+  right: 0;
+  max-height: 240px;
+  overflow-y: auto;
+  list-style: none;
+  margin: 4px 0 0;
+  padding: 4px;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  background: var(--panel);
+}
+.flag {
+  font-size: 16px;
+  line-height: 1;
+}
+.combo-list li {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px;
+  cursor: pointer;
+  overflow-wrap: anywhere;
+}
+.combo-list li:hover,
+.combo-list li.on,
+.combo-list li.highlighted {
+  background: var(--panel2);
+}
+.combo-empty {
+  position: absolute;
+  z-index: 40;
+  top: 100%;
+  width: 100%;
+  padding: 12px;
+  background: var(--panel);
+  border: 1px solid var(--line);
+  color: var(--mut);
+}
+
+.settings-fields {
+  border: 0;
+  padding: 0;
+  margin: 0;
+  min-width: 0;
+}
+
+.tabs.wrap {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  overflow: visible;
+}
+.tabs.wrap button {
+  min-width: 0;
+  white-space: normal;
+}
+@media (min-width: 540px) {
+  .tabs.wrap {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+}

@@ -1,0 +1,1252 @@
+[
+  {
+    "iso": "AD",
+    "geoUrn": "106296266",
+    "name": "Andorra"
+  },
+  {
+    "iso": "AE",
+    "geoUrn": "104305776",
+    "name": "United Arab Emirates"
+  },
+  {
+    "iso": "AF",
+    "geoUrn": "101240012",
+    "name": "Afghanistan"
+  },
+  {
+    "iso": "AG",
+    "geoUrn": "100270819",
+    "name": "Antigua and Barbuda"
+  },
+  {
+    "iso": "AI",
+    "geoUrn": "102287072",
+    "name": "Anguilla"
+  },
+  {
+    "iso": "AL",
+    "geoUrn": "102845717",
+    "name": "Albania"
+  },
+  {
+    "iso": "AM",
+    "geoUrn": "103030111",
+    "name": "Armenia"
+  },
+  {
+    "iso": "AO",
+    "geoUrn": "105371935",
+    "name": "Angola"
+  },
+  {
+    "iso": "AQ",
+    "geoUrn": "100428639",
+    "name": "Antarctica"
+  },
+  {
+    "iso": "AR",
+    "geoUrn": "100446943",
+    "name": "Argentina"
+  },
+  {
+    "iso": "AS",
+    "geoUrn": "102431220",
+    "name": "American Samoa"
+  },
+  {
+    "iso": "AT",
+    "geoUrn": "103883259",
+    "name": "Austria"
+  },
+  {
+    "iso": "AU",
+    "geoUrn": "101452733",
+    "name": "Australia"
+  },
+  {
+    "iso": "AW",
+    "geoUrn": "105763200",
+    "name": "Aruba"
+  },
+  {
+    "iso": "AX",
+    "geoUrn": "119365922",
+    "name": "Åland Islands"
+  },
+  {
+    "iso": "AZ",
+    "geoUrn": "103226548",
+    "name": "Azerbaijan"
+  },
+  {
+    "iso": "BA",
+    "geoUrn": "102869081",
+    "name": "Bosnia and Herzegovina"
+  },
+  {
+    "iso": "BB",
+    "geoUrn": "102118611",
+    "name": "Barbados"
+  },
+  {
+    "iso": "BD",
+    "geoUrn": "106215326",
+    "name": "Bangladesh"
+  },
+  {
+    "iso": "BE",
+    "geoUrn": "100565514",
+    "name": "Belgium"
+  },
+  {
+    "iso": "BF",
+    "geoUrn": "100587095",
+    "name": "Burkina Faso"
+  },
+  {
+    "iso": "BG",
+    "geoUrn": "105333783",
+    "name": "Bulgaria"
+  },
+  {
+    "iso": "BH",
+    "geoUrn": "100425729",
+    "name": "Bahrain"
+  },
+  {
+    "iso": "BI",
+    "geoUrn": "100800406",
+    "name": "Burundi"
+  },
+  {
+    "iso": "BJ",
+    "geoUrn": "101519029",
+    "name": "Benin"
+  },
+  {
+    "iso": "BL",
+    "geoUrn": "100936035",
+    "name": "Saint Barthélemy"
+  },
+  {
+    "iso": "BM",
+    "geoUrn": "100061709",
+    "name": "Bermuda"
+  },
+  {
+    "iso": "BN",
+    "geoUrn": "103809722",
+    "name": "Brunei"
+  },
+  {
+    "iso": "BO",
+    "geoUrn": "104379274",
+    "name": "Bolivia"
+  },
+  {
+    "iso": "BQ",
+    "geoUrn": "105431563",
+    "name": "Bonaire"
+  },
+  {
+    "iso": "BR",
+    "geoUrn": "106057199",
+    "name": "Brazil"
+  },
+  {
+    "iso": "BS",
+    "geoUrn": "106662619",
+    "name": "The Bahamas"
+  },
+  {
+    "iso": "BT",
+    "geoUrn": "103613266",
+    "name": "Bhutan"
+  },
+  {
+    "iso": "BV",
+    "geoUrn": "102127336",
+    "name": "Bouvet Island"
+  },
+  {
+    "iso": "BW",
+    "geoUrn": "105698121",
+    "name": "Botswana"
+  },
+  {
+    "iso": "BY",
+    "geoUrn": "101705918",
+    "name": "Belarus"
+  },
+  {
+    "iso": "BZ",
+    "geoUrn": "105912732",
+    "name": "Belize"
+  },
+  {
+    "iso": "CA",
+    "geoUrn": "101174742",
+    "name": "Canada"
+  },
+  {
+    "iso": "CC",
+    "geoUrn": "103188119",
+    "name": "Cocos (Keeling) Islands"
+  },
+  {
+    "iso": "CD",
+    "geoUrn": "101271829",
+    "name": "Democratic Republic of the Congo"
+  },
+  {
+    "iso": "CF",
+    "geoUrn": "100134827",
+    "name": "Central African Republic"
+  },
+  {
+    "iso": "CG",
+    "geoUrn": "106796687",
+    "name": "Republic of the Congo"
+  },
+  {
+    "iso": "CH",
+    "geoUrn": "106693272",
+    "name": "Switzerland"
+  },
+  {
+    "iso": "CI",
+    "geoUrn": "103295271",
+    "name": "Côte d'Ivoire"
+  },
+  {
+    "iso": "CK",
+    "geoUrn": "103118752",
+    "name": "Cook Islands"
+  },
+  {
+    "iso": "CL",
+    "geoUrn": "104621616",
+    "name": "Chile"
+  },
+  {
+    "iso": "CM",
+    "geoUrn": "105745966",
+    "name": "Cameroon"
+  },
+  {
+    "iso": "CN",
+    "geoUrn": "102890883",
+    "name": "China"
+  },
+  {
+    "iso": "CO",
+    "geoUrn": "100876405",
+    "name": "Colombia"
+  },
+  {
+    "iso": "CR",
+    "geoUrn": "101739942",
+    "name": "Costa Rica"
+  },
+  {
+    "iso": "CU",
+    "geoUrn": "106429766",
+    "name": "Cuba"
+  },
+  {
+    "iso": "CV",
+    "geoUrn": "101679268",
+    "name": "Cape Verde"
+  },
+  {
+    "iso": "CW",
+    "geoUrn": "103619688",
+    "name": "Curacao"
+  },
+  {
+    "iso": "CX",
+    "geoUrn": "102893931",
+    "name": "Christmas Island"
+  },
+  {
+    "iso": "CY",
+    "geoUrn": "106774002",
+    "name": "Cyprus"
+  },
+  {
+    "iso": "CZ",
+    "geoUrn": "104508036",
+    "name": "Czechia"
+  },
+  {
+    "iso": "DE",
+    "geoUrn": "101282230",
+    "name": "Germany"
+  },
+  {
+    "iso": "DJ",
+    "geoUrn": "100371290",
+    "name": "Djibouti"
+  },
+  {
+    "iso": "DK",
+    "geoUrn": "104514075",
+    "name": "Denmark"
+  },
+  {
+    "iso": "DM",
+    "geoUrn": "100720695",
+    "name": "Dominica"
+  },
+  {
+    "iso": "DO",
+    "geoUrn": "105057336",
+    "name": "Dominican Republic"
+  },
+  {
+    "iso": "DZ",
+    "geoUrn": "106395874",
+    "name": "Algeria"
+  },
+  {
+    "iso": "EC",
+    "geoUrn": "106373116",
+    "name": "Ecuador"
+  },
+  {
+    "iso": "EE",
+    "geoUrn": "102974008",
+    "name": "Estonia"
+  },
+  {
+    "iso": "EG",
+    "geoUrn": "106155005",
+    "name": "Egypt"
+  },
+  {
+    "iso": "EH",
+    "geoUrn": "115461347",
+    "name": "Western Sahara, Morocco"
+  },
+  {
+    "iso": "ER",
+    "geoUrn": "104219996",
+    "name": "Eritrea"
+  },
+  {
+    "iso": "ES",
+    "geoUrn": "105646813",
+    "name": "Spain"
+  },
+  {
+    "iso": "ET",
+    "geoUrn": "100212432",
+    "name": "Ethiopia"
+  },
+  {
+    "iso": "FI",
+    "geoUrn": "100456013",
+    "name": "Finland"
+  },
+  {
+    "iso": "FJ",
+    "geoUrn": "105733447",
+    "name": "Fiji"
+  },
+  {
+    "iso": "FK",
+    "geoUrn": "104961595",
+    "name": "Falkland Islands"
+  },
+  {
+    "iso": "FM",
+    "geoUrn": "102762290",
+    "name": "Federated States of Micronesia"
+  },
+  {
+    "iso": "FO",
+    "geoUrn": "104630756",
+    "name": "Faroe Islands"
+  },
+  {
+    "iso": "FR",
+    "geoUrn": "105015875",
+    "name": "France"
+  },
+  {
+    "iso": "GA",
+    "geoUrn": "104471338",
+    "name": "Gabon"
+  },
+  {
+    "iso": "GB",
+    "geoUrn": "101165590",
+    "name": "United Kingdom"
+  },
+  {
+    "iso": "GD",
+    "geoUrn": "104579260",
+    "name": "Grenada"
+  },
+  {
+    "iso": "GE",
+    "geoUrn": "106315325",
+    "name": "Georgia"
+  },
+  {
+    "iso": "GF",
+    "geoUrn": "105001561",
+    "name": "French Guiana"
+  },
+  {
+    "iso": "GG",
+    "geoUrn": "104019891",
+    "name": "Guernsey"
+  },
+  {
+    "iso": "GH",
+    "geoUrn": "105769538",
+    "name": "Ghana"
+  },
+  {
+    "iso": "GI",
+    "geoUrn": "100674501",
+    "name": "Gibraltar"
+  },
+  {
+    "iso": "GL",
+    "geoUrn": "103705642",
+    "name": "Greenland"
+  },
+  {
+    "iso": "GM",
+    "geoUrn": "106100033",
+    "name": "The Gambia"
+  },
+  {
+    "iso": "GN",
+    "geoUrn": "100099594",
+    "name": "Guinea"
+  },
+  {
+    "iso": "GP",
+    "geoUrn": "104232339",
+    "name": "Guadeloupe"
+  },
+  {
+    "iso": "GQ",
+    "geoUrn": "105141335",
+    "name": "Equatorial Guinea"
+  },
+  {
+    "iso": "GR",
+    "geoUrn": "104677530",
+    "name": "Greece"
+  },
+  {
+    "iso": "GS",
+    "geoUrn": "103665423",
+    "name": "South Georgia And South Sandwich Islands"
+  },
+  {
+    "iso": "GT",
+    "geoUrn": "100877388",
+    "name": "Guatemala"
+  },
+  {
+    "iso": "GU",
+    "geoUrn": "107006862",
+    "name": "Guam"
+  },
+  {
+    "iso": "GW",
+    "geoUrn": "100115557",
+    "name": "Guinea-Bissau"
+  },
+  {
+    "iso": "GY",
+    "geoUrn": "105836293",
+    "name": "Guyana"
+  },
+  {
+    "iso": "HK",
+    "geoUrn": "103291313",
+    "name": "Hong Kong SAR"
+  },
+  {
+    "iso": "HM",
+    "geoUrn": "100737582",
+    "name": "Heard Island and McDonald Islands"
+  },
+  {
+    "iso": "HN",
+    "geoUrn": "101937718",
+    "name": "Honduras"
+  },
+  {
+    "iso": "HR",
+    "geoUrn": "104688944",
+    "name": "Croatia"
+  },
+  {
+    "iso": "HT",
+    "geoUrn": "100993490",
+    "name": "Haiti"
+  },
+  {
+    "iso": "HU",
+    "geoUrn": "100288700",
+    "name": "Hungary"
+  },
+  {
+    "iso": "ID",
+    "geoUrn": "102478259",
+    "name": "Indonesia"
+  },
+  {
+    "iso": "IE",
+    "geoUrn": "104738515",
+    "name": "Ireland"
+  },
+  {
+    "iso": "IL",
+    "geoUrn": "101620260",
+    "name": "Israel"
+  },
+  {
+    "iso": "IM",
+    "geoUrn": "106316481",
+    "name": "Isle of Man"
+  },
+  {
+    "iso": "IN",
+    "geoUrn": "102713980",
+    "name": "India"
+  },
+  {
+    "iso": "IO",
+    "geoUrn": "106498958",
+    "name": "British Indian Ocean Territory"
+  },
+  {
+    "iso": "IQ",
+    "geoUrn": "106725625",
+    "name": "Iraq"
+  },
+  {
+    "iso": "IR",
+    "geoUrn": "101934083",
+    "name": "Iran"
+  },
+  {
+    "iso": "IS",
+    "geoUrn": "105238872",
+    "name": "Iceland"
+  },
+  {
+    "iso": "IT",
+    "geoUrn": "103350119",
+    "name": "Italy"
+  },
+  {
+    "iso": "JE",
+    "geoUrn": "102705533",
+    "name": "Jersey"
+  },
+  {
+    "iso": "JM",
+    "geoUrn": "105126983",
+    "name": "Jamaica"
+  },
+  {
+    "iso": "JO",
+    "geoUrn": "103710677",
+    "name": "Jordan"
+  },
+  {
+    "iso": "JP",
+    "geoUrn": "101355337",
+    "name": "Japan"
+  },
+  {
+    "iso": "KE",
+    "geoUrn": "100710459",
+    "name": "Kenya"
+  },
+  {
+    "iso": "KG",
+    "geoUrn": "103490790",
+    "name": "Kyrgyzstan"
+  },
+  {
+    "iso": "KH",
+    "geoUrn": "102500897",
+    "name": "Cambodia"
+  },
+  {
+    "iso": "KI",
+    "geoUrn": "104742735",
+    "name": "Kiribati"
+  },
+  {
+    "iso": "KM",
+    "geoUrn": "103069791",
+    "name": "Comoros"
+  },
+  {
+    "iso": "KN",
+    "geoUrn": "102098694",
+    "name": "Saint Kitts and Nevis"
+  },
+  {
+    "iso": "KP",
+    "geoUrn": "102356536",
+    "name": "North Korea"
+  },
+  {
+    "iso": "KR",
+    "geoUrn": "105149562",
+    "name": "South Korea"
+  },
+  {
+    "iso": "KW",
+    "geoUrn": "103239229",
+    "name": "Kuwait"
+  },
+  {
+    "iso": "KY",
+    "geoUrn": "101679506",
+    "name": "Cayman Islands"
+  },
+  {
+    "iso": "KZ",
+    "geoUrn": "106049128",
+    "name": "Kazakhstan"
+  },
+  {
+    "iso": "LA",
+    "geoUrn": "100664862",
+    "name": "Laos"
+  },
+  {
+    "iso": "LB",
+    "geoUrn": "101834488",
+    "name": "Lebanon"
+  },
+  {
+    "iso": "LC",
+    "geoUrn": "104022923",
+    "name": "Saint Lucia"
+  },
+  {
+    "iso": "LI",
+    "geoUrn": "100878084",
+    "name": "Liechtenstein"
+  },
+  {
+    "iso": "LK",
+    "geoUrn": "100446352",
+    "name": "Sri Lanka"
+  },
+  {
+    "iso": "LR",
+    "geoUrn": "106579411",
+    "name": "Liberia"
+  },
+  {
+    "iso": "LS",
+    "geoUrn": "103712797",
+    "name": "Lesotho"
+  },
+  {
+    "iso": "LT",
+    "geoUrn": "101464403",
+    "name": "Lithuania"
+  },
+  {
+    "iso": "LU",
+    "geoUrn": "104042105",
+    "name": "Luxembourg"
+  },
+  {
+    "iso": "LV",
+    "geoUrn": "104341318",
+    "name": "Latvia"
+  },
+  {
+    "iso": "LY",
+    "geoUrn": "104036859",
+    "name": "Libya"
+  },
+  {
+    "iso": "MA",
+    "geoUrn": "102787409",
+    "name": "Morocco"
+  },
+  {
+    "iso": "MC",
+    "geoUrn": "101352147",
+    "name": "Monaco"
+  },
+  {
+    "iso": "MD",
+    "geoUrn": "106178099",
+    "name": "Moldova"
+  },
+  {
+    "iso": "ME",
+    "geoUrn": "100733275",
+    "name": "Montenegro"
+  },
+  {
+    "iso": "MF",
+    "geoUrn": "103917985",
+    "name": "Saint Martin (France)"
+  },
+  {
+    "iso": "MG",
+    "geoUrn": "105587166",
+    "name": "Madagascar"
+  },
+  {
+    "iso": "MH",
+    "geoUrn": "106516799",
+    "name": "Marshall Islands"
+  },
+  {
+    "iso": "MK",
+    "geoUrn": "103420483",
+    "name": "North Macedonia"
+  },
+  {
+    "iso": "ML",
+    "geoUrn": "100770782",
+    "name": "Mali"
+  },
+  {
+    "iso": "MM",
+    "geoUrn": "104136533",
+    "name": "Myanmar"
+  },
+  {
+    "iso": "MN",
+    "geoUrn": "102396337",
+    "name": "Mongolia"
+  },
+  {
+    "iso": "MO",
+    "geoUrn": "101316508",
+    "name": "Macao SAR"
+  },
+  {
+    "iso": "MP",
+    "geoUrn": "103666514",
+    "name": "Northern Mariana Islands"
+  },
+  {
+    "iso": "MQ",
+    "geoUrn": "103091690",
+    "name": "Martinique"
+  },
+  {
+    "iso": "MR",
+    "geoUrn": "106950838",
+    "name": "Mauritania"
+  },
+  {
+    "iso": "MS",
+    "geoUrn": "101150476",
+    "name": "Montserrat"
+  },
+  {
+    "iso": "MT",
+    "geoUrn": "100961908",
+    "name": "Malta"
+  },
+  {
+    "iso": "MU",
+    "geoUrn": "106931611",
+    "name": "Mauritius"
+  },
+  {
+    "iso": "MV",
+    "geoUrn": "102161637",
+    "name": "Maldives"
+  },
+  {
+    "iso": "MW",
+    "geoUrn": "105992277",
+    "name": "Malawi"
+  },
+  {
+    "iso": "MX",
+    "geoUrn": "103323778",
+    "name": "Mexico"
+  },
+  {
+    "iso": "MY",
+    "geoUrn": "106808692",
+    "name": "Malaysia"
+  },
+  {
+    "iso": "MZ",
+    "geoUrn": "100474128",
+    "name": "Mozambique"
+  },
+  {
+    "iso": "NA",
+    "geoUrn": "106682822",
+    "name": "Namibia"
+  },
+  {
+    "iso": "NC",
+    "geoUrn": "105535747",
+    "name": "New Caledonia"
+  },
+  {
+    "iso": "NE",
+    "geoUrn": "103550069",
+    "name": "Niger"
+  },
+  {
+    "iso": "NF",
+    "geoUrn": "116224156",
+    "name": "Norfolk Island"
+  },
+  {
+    "iso": "NG",
+    "geoUrn": "105365761",
+    "name": "Nigeria"
+  },
+  {
+    "iso": "NI",
+    "geoUrn": "105517145",
+    "name": "Nicaragua"
+  },
+  {
+    "iso": "NL",
+    "geoUrn": "102890719",
+    "name": "Netherlands"
+  },
+  {
+    "iso": "NO",
+    "geoUrn": "103819153",
+    "name": "Norway"
+  },
+  {
+    "iso": "NP",
+    "geoUrn": "104630404",
+    "name": "Nepal"
+  },
+  {
+    "iso": "NR",
+    "geoUrn": "100348836",
+    "name": "Nauru"
+  },
+  {
+    "iso": "NU",
+    "geoUrn": "102139488",
+    "name": "Niue"
+  },
+  {
+    "iso": "NZ",
+    "geoUrn": "105490917",
+    "name": "New Zealand"
+  },
+  {
+    "iso": "OM",
+    "geoUrn": "103619019",
+    "name": "Oman"
+  },
+  {
+    "iso": "PA",
+    "geoUrn": "100808673",
+    "name": "Panama"
+  },
+  {
+    "iso": "PE",
+    "geoUrn": "102927786",
+    "name": "Peru"
+  },
+  {
+    "iso": "PF",
+    "geoUrn": "102681285",
+    "name": "French Polynesia"
+  },
+  {
+    "iso": "PG",
+    "geoUrn": "100152180",
+    "name": "Papua New Guinea"
+  },
+  {
+    "iso": "PH",
+    "geoUrn": "103121230",
+    "name": "Philippines"
+  },
+  {
+    "iso": "PK",
+    "geoUrn": "101022442",
+    "name": "Pakistan"
+  },
+  {
+    "iso": "PL",
+    "geoUrn": "105072130",
+    "name": "Poland"
+  },
+  {
+    "iso": "PM",
+    "geoUrn": "102024132",
+    "name": "Saint Pierre and Miquelon"
+  },
+  {
+    "iso": "PN",
+    "geoUrn": "104322374",
+    "name": "Pitcairn Islands"
+  },
+  {
+    "iso": "PR",
+    "geoUrn": "105245958",
+    "name": "Puerto Rico"
+  },
+  {
+    "iso": "PS",
+    "geoUrn": "93000000",
+    "name": "Palestinian Authority"
+  },
+  {
+    "iso": "PT",
+    "geoUrn": "100364837",
+    "name": "Portugal"
+  },
+  {
+    "iso": "PW",
+    "geoUrn": "106779877",
+    "name": "Palau"
+  },
+  {
+    "iso": "PY",
+    "geoUrn": "104065273",
+    "name": "Paraguay"
+  },
+  {
+    "iso": "QA",
+    "geoUrn": "104170880",
+    "name": "Qatar"
+  },
+  {
+    "iso": "RE",
+    "geoUrn": "104265812",
+    "name": "Reunion"
+  },
+  {
+    "iso": "RO",
+    "geoUrn": "106670623",
+    "name": "Romania"
+  },
+  {
+    "iso": "RS",
+    "geoUrn": "101855366",
+    "name": "Serbia"
+  },
+  {
+    "iso": "RU",
+    "geoUrn": "101728296",
+    "name": "Russia"
+  },
+  {
+    "iso": "RW",
+    "geoUrn": "103547315",
+    "name": "Rwanda"
+  },
+  {
+    "iso": "SA",
+    "geoUrn": "100459316",
+    "name": "Saudi Arabia"
+  },
+  {
+    "iso": "SB",
+    "geoUrn": "104980134",
+    "name": "Solomon Islands"
+  },
+  {
+    "iso": "SC",
+    "geoUrn": "107007050",
+    "name": "Seychelles"
+  },
+  {
+    "iso": "SD",
+    "geoUrn": "106740205",
+    "name": "Sudan"
+  },
+  {
+    "iso": "SE",
+    "geoUrn": "105117694",
+    "name": "Sweden"
+  },
+  {
+    "iso": "SG",
+    "geoUrn": "102454443",
+    "name": "Singapore"
+  },
+  {
+    "iso": "SH",
+    "geoUrn": "105392771",
+    "name": "Saint Helena, Ascension and Tristan da Cunha"
+  },
+  {
+    "iso": "SI",
+    "geoUrn": "106137034",
+    "name": "Slovenia"
+  },
+  {
+    "iso": "SJ",
+    "geoUrn": "104980232",
+    "name": "Svalbard"
+  },
+  {
+    "iso": "SK",
+    "geoUrn": "103119917",
+    "name": "Slovakia"
+  },
+  {
+    "iso": "SL",
+    "geoUrn": "106524187",
+    "name": "Sierra Leone"
+  },
+  {
+    "iso": "SM",
+    "geoUrn": "105730022",
+    "name": "San Marino"
+  },
+  {
+    "iso": "SN",
+    "geoUrn": "103587512",
+    "name": "Senegal"
+  },
+  {
+    "iso": "SO",
+    "geoUrn": "104725424",
+    "name": "Somalia"
+  },
+  {
+    "iso": "SR",
+    "geoUrn": "105530931",
+    "name": "Suriname"
+  },
+  {
+    "iso": "SS",
+    "geoUrn": "103622308",
+    "name": "South Sudan"
+  },
+  {
+    "iso": "ST",
+    "geoUrn": "106867470",
+    "name": "São Tomé and Príncipe"
+  },
+  {
+    "iso": "SV",
+    "geoUrn": "106522560",
+    "name": "El Salvador"
+  },
+  {
+    "iso": "SX",
+    "geoUrn": "105519673",
+    "name": "Sint Maarten"
+  },
+  {
+    "iso": "SY",
+    "geoUrn": "106714035",
+    "name": "Syria"
+  },
+  {
+    "iso": "SZ",
+    "geoUrn": "106768907",
+    "name": "Eswatini"
+  },
+  {
+    "iso": "TC",
+    "geoUrn": "100771715",
+    "name": "Turks and Caicos Islands"
+  },
+  {
+    "iso": "TD",
+    "geoUrn": "104655384",
+    "name": "Chad"
+  },
+  {
+    "iso": "TF",
+    "geoUrn": "104827874",
+    "name": "French Southern and Antarctic Lands"
+  },
+  {
+    "iso": "TG",
+    "geoUrn": "103603395",
+    "name": "Togo"
+  },
+  {
+    "iso": "TH",
+    "geoUrn": "105146118",
+    "name": "Thailand"
+  },
+  {
+    "iso": "TJ",
+    "geoUrn": "105925962",
+    "name": "Tajikistan"
+  },
+  {
+    "iso": "TK",
+    "geoUrn": "100212364",
+    "name": "Tokelau"
+  },
+  {
+    "iso": "TL",
+    "geoUrn": "101101678",
+    "name": "Timor-Leste"
+  },
+  {
+    "iso": "TM",
+    "geoUrn": "105449295",
+    "name": "Turkmenistan"
+  },
+  {
+    "iso": "TN",
+    "geoUrn": "102134353",
+    "name": "Tunisia"
+  },
+  {
+    "iso": "TO",
+    "geoUrn": "105646927",
+    "name": "Tonga"
+  },
+  {
+    "iso": "TR",
+    "geoUrn": "102105699",
+    "name": "Türkiye"
+  },
+  {
+    "iso": "TT",
+    "geoUrn": "106947126",
+    "name": "Trinidad and Tobago"
+  },
+  {
+    "iso": "TV",
+    "geoUrn": "103609605",
+    "name": "Tuvalu"
+  },
+  {
+    "iso": "TW",
+    "geoUrn": "104187078",
+    "name": "Taiwan"
+  },
+  {
+    "iso": "TZ",
+    "geoUrn": "104604145",
+    "name": "Tanzania"
+  },
+  {
+    "iso": "UA",
+    "geoUrn": "102264497",
+    "name": "Ukraine"
+  },
+  {
+    "iso": "UG",
+    "geoUrn": "106943612",
+    "name": "Uganda"
+  },
+  {
+    "iso": "UM",
+    "geoUrn": "111818742",
+    "name": "United States Minor Outlying Islands"
+  },
+  {
+    "iso": "US",
+    "geoUrn": "103644278",
+    "name": "United States"
+  },
+  {
+    "iso": "UY",
+    "geoUrn": "100867946",
+    "name": "Uruguay"
+  },
+  {
+    "iso": "UZ",
+    "geoUrn": "107734735",
+    "name": "Uzbekistan"
+  },
+  {
+    "iso": "VA",
+    "geoUrn": "107163060",
+    "name": "Vatican City"
+  },
+  {
+    "iso": "VC",
+    "geoUrn": "104703990",
+    "name": "Saint Vincent and the Grenadines"
+  },
+  {
+    "iso": "VE",
+    "geoUrn": "101490751",
+    "name": "Venezuela"
+  },
+  {
+    "iso": "VG",
+    "geoUrn": "105534858",
+    "name": "British Virgin Islands"
+  },
+  {
+    "iso": "VI",
+    "geoUrn": "102119762",
+    "name": "US Virgin Islands"
+  },
+  {
+    "iso": "VN",
+    "geoUrn": "104195383",
+    "name": "Vietnam"
+  },
+  {
+    "iso": "VU",
+    "geoUrn": "102185308",
+    "name": "Vanuatu"
+  },
+  {
+    "iso": "WF",
+    "geoUrn": "104246629",
+    "name": "Wallis and Futuna"
+  },
+  {
+    "iso": "WS",
+    "geoUrn": "104031721",
+    "name": "Samoa"
+  },
+  {
+    "iso": "XK",
+    "geoUrn": "104640522",
+    "name": "Kosovo"
+  },
+  {
+    "iso": "YE",
+    "geoUrn": "105962095",
+    "name": "Yemen"
+  },
+  {
+    "iso": "YT",
+    "geoUrn": "104097939",
+    "name": "Mayotte"
+  },
+  {
+    "iso": "ZA",
+    "geoUrn": "104035573",
+    "name": "South Africa"
+  },
+  {
+    "iso": "ZM",
+    "geoUrn": "102120260",
+    "name": "Zambia"
+  },
+  {
+    "iso": "ZW",
+    "geoUrn": "101367137",
+    "name": "Zimbabwe"
+  }
+]

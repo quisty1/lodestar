@@ -1,0 +1,262 @@
+#app {
+  min-height: 100dvh;
+}
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100dvh;
+  width: 100%;
+}
+.topbar {
+  position: sticky;
+  top: 0;
+  z-index: 30;
+  background: var(--ink);
+  border-bottom: 1px solid var(--line);
+  padding: 8px 16px;
+}
+.brandrow {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  min-height: 40px;
+}
+.brand {
+  flex: 1;
+}
+.brand h1 {
+  font-size: 16px;
+  letter-spacing: -0.2px;
+}
+.logo {
+  width: 24px;
+  height: 24px;
+  color: var(--txt);
+}
+.status {
+  display: inline-flex;
+  gap: 6px;
+  align-items: center;
+  color: var(--ok);
+  font-size: 12px;
+}
+.status.idle {
+  color: var(--mut);
+}
+.dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: currentColor;
+}
+.body {
+  flex: 1;
+  min-width: 0;
+  padding: 24px 16px 96px;
+}
+.view {
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+.page-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 24px;
+}
+.page-heading .title {
+  flex: 1;
+}
+.back-heading {
+  margin-bottom: 16px;
+}
+.back-heading .ghost {
+  padding-left: 0;
+}
+.section {
+  margin-top: 24px;
+}
+.section-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+.sect-lbl {
+  font-size: 16px;
+  font-weight: 600;
+  margin: 24px 0 12px;
+}
+.run-panel,
+.editor {
+  padding: 16px;
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+}
+.run-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.run-description {
+  color: var(--mut);
+  font-size: 12px;
+  margin-top: 8px;
+}
+.run-actions {
+  display: flex;
+  gap: 8px;
+  margin-top: 16px;
+  flex-wrap: wrap;
+}
+.run-actions .launch {
+  flex: 1;
+}
+.run-footer {
+  margin-top: 12px;
+}
+.actions,
+.row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+.actions {
+  margin-top: 12px;
+}
+.spread {
+  justify-content: space-between;
+}
+.stack {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.divider {
+  border: 0;
+  border-top: 1px solid var(--line);
+  margin: 16px 0;
+}
+.banner {
+  padding: 12px 0;
+  color: var(--mut);
+  font-size: 12px;
+  line-height: 1.6;
+}
+.banner.error {
+  color: var(--danger);
+}
+.empty {
+  padding: 24px 0;
+  color: var(--mut);
+}
+.empty strong {
+  display: block;
+  color: var(--txt);
+  font-size: 14px;
+  margin-bottom: 4px;
+}
+.note,
+.list-row {
+  padding: 16px 0;
+  border-bottom: 1px solid var(--line);
+  min-width: 0;
+}
+.list-row .description {
+  color: var(--mut);
+  margin-top: 4px;
+}
+.list-button {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  width: 100%;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  text-align: left;
+}
+.list-button strong {
+  font-weight: 500;
+}
+.preview {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  color: var(--mut);
+  font-size: 12px;
+  margin-top: 4px;
+}
+details {
+  border-bottom: 1px solid var(--line);
+  padding: 12px 0;
+}
+summary {
+  cursor: pointer;
+  color: var(--txt);
+  font-size: 14px;
+}
+details > :not(summary) {
+  margin-top: 12px;
+}
+.nav {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 30;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 8px 8px calc(8px + env(safe-area-inset-bottom));
+  background: var(--ink);
+  border-top: 1px solid var(--line);
+}
+.nav button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  min-height: 48px;
+  border: 0;
+  border-radius: 6px;
+  background: transparent;
+  color: var(--mut);
+  font-size: 12px;
+  padding: 4px;
+}
+.nav button.on {
+  color: var(--txt);
+  background: var(--panel);
+}
+.nav button:hover {
+  color: var(--txt);
+}
+.nav svg {
+  width: 18px;
+  height: 18px;
+}
+.save-bar {
+  position: sticky;
+  bottom: 72px;
+  padding: 12px 0;
+  background: var(--ink);
+  border-top: 1px solid var(--line);
+  margin-top: 24px;
+}
+@media (min-width: 480px) {
+  .body {
+    padding: 24px 24px 96px;
+  }
+  .topbar {
+    padding-inline: 24px;
+  }
+}

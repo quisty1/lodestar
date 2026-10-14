@@ -1,0 +1,210 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Lodestar — новый эталон</title>
+    <style>
+      :root {
+        color-scheme: dark;
+        --bg: #181818;
+        --surface: #222;
+        --line: #383838;
+        --text: #f2f2f2;
+        --muted: #b3b3b3;
+        --accent: #91ace7;
+      }
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+        background: var(--bg);
+        color: var(--text);
+        font:
+          14px/1.5 -apple-system,
+          BlinkMacSystemFont,
+          'Segoe UI',
+          sans-serif;
+      }
+      header,
+      nav {
+        padding: 16px 24px;
+        border-bottom: 1px solid var(--line);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      main {
+        padding: 24px;
+        max-width: 600px;
+        margin: auto;
+      }
+      h1 {
+        font-size: 20px;
+        margin: 0 0 16px;
+      }
+      h2 {
+        font-size: 16px;
+        margin: 24px 0 12px;
+      }
+      p {
+        color: var(--muted);
+        margin: 8px 0;
+      }
+      button {
+        font: inherit;
+        min-height: 40px;
+        border: 1px solid var(--line);
+        border-radius: 6px;
+        background: transparent;
+        color: var(--text);
+        padding: 8px 12px;
+        cursor: pointer;
+      }
+      .primary {
+        background: var(--accent);
+        color: #181818;
+        border-color: var(--accent);
+      }
+      .run {
+        background: var(--surface);
+        border: 1px solid var(--line);
+        padding: 16px;
+        border-radius: 8px;
+      }
+      .row {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 12px;
+      }
+      .actions {
+        display: flex;
+        gap: 8px;
+        margin-top: 16px;
+        flex-wrap: wrap;
+      }
+      .metrics {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 16px;
+        padding: 16px 0;
+        border-bottom: 1px solid var(--line);
+      }
+      small {
+        display: block;
+        color: var(--muted);
+        font-size: 12px;
+      }
+      strong {
+        font-size: 20px;
+        font-variant-numeric: tabular-nums;
+      }
+      a {
+        color: var(--accent);
+      }
+      .pillar {
+        margin: 12px 0;
+      }
+      .track {
+        height: 4px;
+        background: var(--line);
+        margin-top: 6px;
+      }
+      .fill {
+        height: 100%;
+        background: var(--accent);
+      }
+      nav {
+        position: sticky;
+        bottom: 0;
+        background: var(--bg);
+        border-top: 1px solid var(--line);
+        border-bottom: 0;
+        justify-content: space-around;
+      }
+      nav span {
+        font-size: 12px;
+        color: var(--muted);
+      }
+      nav .selected {
+        color: var(--text);
+      }
+      details {
+        border-bottom: 1px solid var(--line);
+        padding: 12px 0;
+      }
+      summary {
+        cursor: pointer;
+      }
+      button:focus-visible,
+      a:focus-visible,
+      summary:focus-visible {
+        outline: 2px solid var(--accent);
+        outline-offset: 3px;
+      }
+    </style>
+  </head>
+  <body>
+    <header><b>Lodestar</b><span>Настройки</span></header>
+    <main>
+      <h1>Обзор</h1>
+      <section class="run">
+        <div class="row"><b>Автоматизация</b><small>Готов к запуску</small></div>
+        <p>Один запуск выполняет включённые модули.</p>
+        <div class="actions">
+          <button class="primary">Запустить</button><button>Пауза до завтра</button>
+        </div>
+        <p><a href="#automation">Настроить автоматизацию</a></p>
+      </section>
+      <h2>Сегодня</h2>
+      <div class="metrics">
+        <div><strong>24</strong><small>Просмотров</small></div>
+        <div><strong>8</strong><small>Приглашений</small></div>
+        <div><strong>12</strong><small>Лайков</small></div>
+        <div><strong>2</strong><small>Комментария</small></div>
+        <div><strong>3</strong><small>Идеи</small></div>
+        <div><strong>0</strong><small>Публикаций</small></div>
+      </div>
+      <h2>Интерес к профилю</h2>
+      <div class="row"><strong>148</strong><small>просмотров за 90 дней</small></div>
+      <p>Рост на 12 просмотров с предыдущего снимка.</p>
+      <h2>SSI</h2>
+      <div class="row">
+        <div><strong>68</strong><small>из 100</small></div>
+        <button>Обновить SSI</button>
+      </div>
+      <div class="pillar">
+        <div class="row"><span>Профессиональный бренд</span><small>18/25</small></div>
+        <div class="track"><div class="fill" style="width: 72%"></div></div>
+      </div>
+      <div class="pillar">
+        <div class="row"><span>Нужные люди</span><small>16/25</small></div>
+        <div class="track"><div class="fill" style="width: 64%"></div></div>
+      </div>
+      <details>
+        <summary>Динамика SSI</summary>
+        <p>Графики используют тот же спокойный акцент.</p>
+      </details>
+      <h2 id="automation">Автоматизация</h2>
+      <details>
+        <summary>Просмотры профилей — 40 в день</summary>
+        <p>Параметры раскрываются по запросу.</p>
+      </details>
+      <details>
+        <summary>Приглашения — 100 в неделю</summary>
+        <p>Общая аудитория задаётся один раз.</p>
+      </details>
+      <p>
+        <small
+          >Эталон оформления. Все числовые значения здесь — примеры, а не данные аккаунта.</small
+        >
+      </p>
+    </main>
+    <nav>
+      <span class="selected">Обзор</span><span>Входящие</span><span>Контент</span
+      ><span>История</span>
+    </nav>
+  </body>
+</html>

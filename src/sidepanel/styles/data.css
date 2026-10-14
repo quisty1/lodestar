@@ -1,0 +1,245 @@
+/* Data is aligned, without decorative containers. */
+.metrics,
+.ap-tally {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 16px 12px;
+}
+.ap-metric {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.ap-num {
+  font-size: 20px;
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+}
+.ap-mlbl {
+  font-size: 12px;
+  color: var(--mut);
+}
+.zero .ap-num {
+  color: var(--mut);
+}
+.ssi-top,
+.pv-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+.score-value {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+}
+.score-value .num {
+  font-size: 36px;
+  line-height: 1.2;
+  font-weight: 600;
+}
+.score-value .of {
+  color: var(--mut);
+  font-size: 12px;
+}
+.ssi-meta {
+  flex: 1;
+}
+.delta {
+  font-size: 12px;
+  font-variant-numeric: tabular-nums;
+}
+.pillars {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 16px;
+}
+.ph,
+.lh {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  font-size: 12px;
+}
+.ph span:last-child {
+  color: var(--mut);
+  flex-shrink: 0;
+  font-variant-numeric: tabular-nums;
+}
+.track {
+  height: 4px;
+  background: var(--line);
+  border-radius: 2px;
+  margin-top: 6px;
+  overflow: hidden;
+}
+.fill {
+  height: 100%;
+  background: var(--accent);
+}
+.mod {
+  padding: 16px 0;
+  border-bottom: 1px solid var(--line);
+}
+.mod-head {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.mod-ttl {
+  flex: 1;
+  min-width: 0;
+}
+.mod-ttl p {
+  font-size: 12px;
+  color: var(--mut);
+  margin-top: 4px;
+}
+.mod-head .mic {
+  width: 20px;
+  height: 20px;
+  color: var(--mut);
+}
+.mod-head svg {
+  width: 20px;
+  height: 20px;
+}
+.mod-limit {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-top: 12px;
+  color: var(--mut);
+  font-size: 12px;
+}
+.mod-limit input {
+  width: 88px;
+}
+.mod details {
+  border: 0;
+  padding-bottom: 0;
+}
+.mod-stats {
+  display: flex;
+  gap: 24px;
+  margin-top: 12px;
+}
+.stat .n {
+  font-size: 20px;
+  font-weight: 600;
+}
+.stat .l {
+  color: var(--mut);
+  font-size: 12px;
+}
+.trend-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+.wasnow {
+  display: flex;
+  gap: 8px;
+  align-items: baseline;
+  font-variant-numeric: tabular-nums;
+}
+.was {
+  color: var(--mut);
+}
+.now {
+  font-size: 20px;
+  font-weight: 600;
+}
+.trend .rows {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.trend .row {
+  display: grid;
+  grid-template-columns: minmax(80px, 1fr) minmax(60px, 1fr) auto;
+  gap: 8px;
+}
+.rlbl,
+.rdelta,
+.span {
+  font-size: 12px;
+}
+.rlbl {
+  color: var(--mut);
+}
+.spark {
+  display: block;
+  width: 100%;
+  height: 30px;
+}
+.pv-num {
+  font-size: 24px;
+  font-weight: 600;
+}
+.pv-unit,
+.pv-hint,
+.pv-cap {
+  font-size: 12px;
+  color: var(--mut);
+}
+.pv-cap,
+.pv-hint {
+  margin-top: 8px;
+}
+.pv-count {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+.pv .spark {
+  margin-top: 12px;
+}
+.category-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+}
+.category-card {
+  padding: 12px 0;
+  border-bottom: 1px solid var(--line);
+}
+.category-card b,
+.category-card small {
+  display: block;
+}
+.category-card b {
+  font-size: 20px;
+  font-variant-numeric: tabular-nums;
+}
+.category-card small {
+  color: var(--mut);
+}
+.audit-item {
+  display: flex;
+  align-items: baseline;
+  gap: 12px;
+}
+.audit-item .status {
+  flex-shrink: 0;
+}
+.audit-item p {
+  color: var(--mut);
+  font-size: 12px;
+  margin-top: 4px;
+}
+.audit-item .fail {
+  color: var(--danger);
+}
+.audit-item .warn {
+  color: var(--warn);
+}
+.audit-item .unknown {
+  color: var(--mut);
+}
